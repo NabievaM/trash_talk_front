@@ -1,6 +1,6 @@
 <template>
-  <div class="px-4 pb-4">
-    <div class="font-roboto py-5 flex justify-between items-center">
+  <div class="px-2 pb-4">
+    <div class="font-roboto py-5 px-4 flex justify-between items-center">
       <div class="font-medium text-xl">Groups</div>
       <div class="text-sm font-semibold text-[#1877F2]">See all</div>
     </div>
