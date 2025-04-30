@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-2xl px-4 py-4 mb-4 w-[410px] mx-auto">
+  <div class="bg-white rounded-2xl px-4 py-4 mb-4 w-[400px] mx-auto">
     <div class="flex justify-between items-start mb-3">
       <div class="flex items-center space-x-2">
         <span class="font-roboto font-semibold text-base text-[#19295C]">
