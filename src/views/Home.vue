@@ -1,7 +1,9 @@
 <template>
-  <div class=""></div>
+  <div><GroupCardSlider /></div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import GroupCardSlider from "../components/groupCardSlider.vue";
+</script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
