@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-around items-center h-20 bg-white">
+  <div
+    class="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] h-20 bg-white z-50 flex justify-around items-center"
+  >
     <router-link
       v-for="item in navItems"
       :key="item.name"

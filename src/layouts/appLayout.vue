@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen flex justify-center bg-gray-100">
+  <div class="w-full min-h-screen flex justify-center bg-gray-100 pb-20">
     <main class="w-full max-w-[430px] min-h-screen bg-[#F1F4F5]">
       <component :is="route.meta.layoutComponent">
         <slot />

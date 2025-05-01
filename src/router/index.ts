@@ -1,5 +1,10 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
+import {
+  createRouter,
+  createWebHistory,
+  type RouteRecordRaw,
+} from "vue-router";
 import Home from "../views/Home.vue";
+import Post from "../views/Post.vue";
 import UserLayout from "../layouts/user.vue";
 
 const routes: RouteRecordRaw[] = [
@@ -7,6 +12,14 @@ const routes: RouteRecordRaw[] = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      layoutComponent: UserLayout,
+    },
+  },
+  {
+    path: "/posts",
+    name: "Post",
+    component: Post,
     meta: {
       layoutComponent: UserLayout,
     },

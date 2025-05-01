@@ -7,7 +7,7 @@
         </span>
         <Checkmark />
       </div>
-      <Setting />
+      <Setting class="text-[#99A1BE] bg-[#F1F4F5] rounded-full w-[40px]" />
     </div>
 
     <p class="font-roboto font-normal text-base text-[#2D3F7B] mb-4">
