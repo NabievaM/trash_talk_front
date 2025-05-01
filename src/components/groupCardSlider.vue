@@ -32,6 +32,7 @@
             </div>
           </div>
           <button
+            @click="item.title === 'SPORTS' && router.push('/posts')"
             class="bg-[#1877F2] hover:bg-[#0e5dd1] active:bg-[#0a47a1] transition-colors duration-200 text-white text-xs font-bold rounded-3xl px-6 py-1.5"
           >
             See all
@@ -43,6 +44,10 @@
 </template>
 
 <script setup lang="ts">
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
 import { ref } from "vue";
 import GroupIcon from "../assets/icons/group.svg";
 
